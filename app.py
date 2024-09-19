@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-groq_api_key=os.getenv("GROQ_API_KEY")
+groq_api_key='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'
 ## streamlit APP
 st.set_page_config(page_title="Summarize Text From YT or Website", page_icon="🦜")
 st.title("🦜 Summarize Text From YouTube or Website")
