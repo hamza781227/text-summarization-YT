@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 groq_api_key=os.getenv("GROQ_API_KEY")
-## sstreamlit APP
-st.set_page_config(page_title="LangChain: Summarize Text From YT or Website", page_icon="🦜")
+## streamlit APP
+st.set_page_config(page_title="Summarize Text From YT or Website", page_icon="🦜")
 st.title("🦜 Summarize Text From YouTube or Website")
 st.subheader('Summarize URL')
 st.secrets['GROQ_API_KEY']
